@@ -76,7 +76,8 @@ A modern, responsive business website built with custom WordPress development, B
 
 ## 📸 Screenshots
 
-https://ismail-business-exclusive.page.gd/
+<img width="1526" height="6078" alt="ismail-business-exclusive page gd_landing_" src="https://github.com/user-attachments/assets/abbdde43-1738-4786-9d35-e35edec681e2" />
+
 
 ---
 
