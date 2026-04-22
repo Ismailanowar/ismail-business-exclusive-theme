@@ -1,5 +1,5 @@
-<img width="1526" height="6078" alt="ismail-business-exclusive page gd_landing_" src="https://github.com/user-attachments/assets/e2fa2c2c-b759-4182-b24c-22546a69f034" /># 🚀 Business WordPress Theme
-
+ 🚀 Business WordPress Theme
+https://ismail-business-exclusive.page.gd/
 A modern, responsive business website built with custom WordPress development, Bootstrap, and clean UI/UX design.
 
 ---
@@ -75,13 +75,16 @@ A modern, responsive business website built with custom WordPress development, B
 ---
 
 ## 📸 Screenshots
+<img width="1526" height="8236" alt="ismail-business-exclusive page gd_about-us_" src="https://github.com/user-attachments/assets/0ab62d9d-7bfb-407b-a774-e998d5142f7d" />
+<img width="1526" height="4734" alt="ismail-business-exclusive page gd_blog_" src="https://github.com/user-attachments/assets/265c1806-afe4-4241-a53d-b8f2f2b6a142" />
+<img width="1526" height="6794" alt="ismail-business-exclusive page gd_" src="https://github.com/user-attachments/assets/258b4223-879d-45ee-a20f-b7a4c2702506" />
 
 <img width="1526" height="6078" alt="ismail-business-exclusive page gd_landing_" src="https://github.com/user-attachments/assets/abbdde43-1738-4786-9d35-e35edec681e2" />
 <img width="1526" height="6358" alt="ismail-business-exclusive page gd_services_" src="https://github.com/user-attachments/assets/03bd630a-c877-4a99-9da9-b66ee4860c65" />
 <img width="1526" height="4276" alt="ismail-business-exclusive page gd_contact_" src="https://github.com/user-attachments/assets/637e0792-ed41-4444-b00c-7c1fdc1ee3d8" />
-![Uploading ismail-business-exclusive.page.gd_about-us_.png…]()
-![Uploading ismail-business-exclusive.page.gd_blog_.png…]()
-![Uploading ismail-business-exclusive.page.gd_.png…]()
+
+
+
 
 
 
