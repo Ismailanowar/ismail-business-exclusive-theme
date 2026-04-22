@@ -1,0 +1,435 @@
+/*
+Theme Name: Ismail Business Theme
+Author: Ismail
+Version: 1.0
+*/
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1492724441997-5dc865305da7');
+    height: 90vh;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-card {
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.cta {
+    background: #0073aa;
+    padding: 80px 20px;
+}
+
+.testimonials p {
+    font-style: italic;
+}
+
+.blog h5 {
+    margin-top: 15px;
+}
+
+.contact {
+    background: #f8f9fa;
+}
+
+.top-bar {
+    font-size: 13px;
+}
+
+.navbar {
+    transition: all 0.3s ease;
+}
+
+.navbar-nav li a {
+    padding: 10px 15px;
+    font-weight: 500;
+    color: #333 !important;
+}
+
+.navbar-nav li a:hover {
+    color: #0073aa !important;
+}
+
+.btn-primary {
+    background: #0073aa;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background: #005c8a;
+}
+
+.navbar-nav {
+    gap: 20px; /* মেনুর মধ্যে স্পেস */
+}
+
+.navbar-nav li {
+    list-style: none;
+}
+
+.navbar-nav li a {
+    text-decoration: none !important; /* underline remove */
+    padding: 8px 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.navbar-nav li a {
+    position: relative;
+    transition: 0.3s;
+}
+
+.navbar-nav li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: #0073aa;
+    transition: 0.3s;
+}
+
+.navbar-nav li a:hover::after {
+    width: 100%;
+}
+
+.about-hero {
+    padding: 80px 20px;
+}
+
+.team-card {
+    border: none;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.service-card {
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.pricing {
+    border-radius: 10px;
+}
+
+.service-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.service-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.card-text {
+    color: #666;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #0073aa;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #005c8a;
+}
+
+.portfolio-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1492724441997-5dc865305da7');
+    padding: 120px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-card {
+    border: none;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.portfolio-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.portfolio-card {
+    height: 100%;
+}
+
+.portfolio-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.before-after-card img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ba-slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* BEFORE IMAGE */
+.ba-slider .before-img {
+    width: 100%;
+    display: block;
+}
+
+/* AFTER WRAPPER */
+.after-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* initial position */
+    height: 100%;
+    overflow: hidden;
+}
+
+.after-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* HANDLE */
+.slider-handle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 3px;
+    height: 100%;
+    background: #fff;
+    cursor: ew-resize;
+    z-index: 10;
+}
+
+/* HERO */
+.about-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+/* MISSION BOX */
+.mission-box {
+    background: #fff;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.mission-box:hover {
+    transform: translateY(-10px);
+}
+
+/* TEAM */
+.team-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.team-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+}
+
+/* ACHIEVEMENTS */
+.achievements {
+    background: linear-gradient(135deg, #0073aa, #005177);
+}
+
+.accordion-button {
+    font-weight: 600;
+}
+
+.accordion-item {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+/* HERO */
+.landing-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1556761175-4b46a572b786');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+/* FEATURE BOX */
+.feature-box {
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
+
+/* FORM SECTION */
+.landing-form {
+    background: linear-gradient(135deg, #0073aa, #003f5c);
+    padding: 80px 0;
+}
+
+form .form-control {
+    border-radius: 8px;
+    padding: 12px;
+}
+
+button.btn-primary {
+    padding: 12px;
+    font-weight: 600;
+}
+
+.map iframe {
+    border-radius: 10px;
+}
+
+/* TESTIMONIAL CARD */
+.testimonial-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* IMAGE */
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+
+/* STARS */
+.stars {
+    color: #ffc107;
+    font-size: 18px;
+}
+
+/* TOP FOOTER */
+.footer-top {
+    background: #ff7a00; /* orange */
+    color: #fff;
+}
+
+.footer-top h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-top p {
+    color: #f1f1f1;
+}
+
+/* SEARCH BOX */
+.footer-top input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* BOTTOM FOOTER */
+.footer-bottom {
+    background: #ffd54f; /* yellow */
+    color: #000;
+    font-weight: 500;
+}
+
+
+/* FOOTER MENU */
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+}
+
+.footer-menu a {
+    color: #000;            /* black color */
+    text-decoration: none;
+    font-size: 16px;        /* bigger font */
+    font-weight: 500;       /* slightly bold */
+}
+
+.footer-menu a:hover {
+     color: #007bff;   /* blue color */
+    transform: translateX(5px);        /* nice orange hover */
+}
